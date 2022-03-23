@@ -22,7 +22,7 @@ public interface Radnja {
 	 * @param a referenca na gumu koju treba uneti u radnju
 	 * @throws java.lang.NullPointerException     u slucaju da je uneta referenca
 	 *                                            null
-	 * @throws java.lang.IllegalArgumentException u slucaju da uneta guma vec
+	 * @throws java.lang.RuntimeException u slucaju da uneta guma vec
 	 *                                            postoji u radnji
 	 */
 	void dodajGumu(AutoGuma a);
